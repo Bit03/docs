@@ -17,33 +17,28 @@
         }, 
         {
             "location": "/baryon/", 
-            "text": "\u57fa\u672c\u73af\u5883\n\uf0c1\n\n\n\n\n\n\n\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS\n\n\n\u6570\u636e\u5e93: MySQL 5.6\n\n\n\u7f13\u5b58\u7cfb\u7edf: redis\n\n\n\u5f00\u53d1\u8bed\u8a00: Python3.6\n\n\n\u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91\n\n\n\n\nWeb Framework\n\uf0c1\n\n\n\n\n\n\nDjango-1.11\n\n\ndjango-rest-framework 3.7.3\n\n\n\n\nAPI \u6587\u6863\n\uf0c1\n\n\n\n\nhttps://api.chainnews.com/api/schema/", 
+            "text": "\u57fa\u672c\u73af\u5883\n\uf0c1\n\n\n\n\n\n\n\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS\n\n\n\u6570\u636e\u5e93: MySQL 5.6\n\n\n\u7f13\u5b58\u7cfb\u7edf: redis\n\n\n\u5f00\u53d1\u8bed\u8a00: Python 3.6.x\n\n\n\u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91\n\n\n\n\nWeb Framework\n\uf0c1\n\n\n\n\n\n\nDjango-1.11.x\n\n\ndjango-rest-framework 3.9.x\n\n\n\n\nAPI \u6587\u6863\n\uf0c1\n\n\n\n\nhttps://api.chainnews.com/api/docs/", 
             "title": "\u5f00\u53d1\u73af\u5883"
         }, 
         {
             "location": "/baryon/#_1", 
-            "text": "\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS  \u6570\u636e\u5e93: MySQL 5.6  \u7f13\u5b58\u7cfb\u7edf: redis  \u5f00\u53d1\u8bed\u8a00: Python3.6  \u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91", 
+            "text": "\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS  \u6570\u636e\u5e93: MySQL 5.6  \u7f13\u5b58\u7cfb\u7edf: redis  \u5f00\u53d1\u8bed\u8a00: Python 3.6.x  \u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91", 
             "title": "\u57fa\u672c\u73af\u5883"
         }, 
         {
             "location": "/baryon/#web-framework", 
-            "text": "Django-1.11  django-rest-framework 3.7.3", 
+            "text": "Django-1.11.x  django-rest-framework 3.9.x", 
             "title": "Web Framework"
         }, 
         {
             "location": "/baryon/#api", 
-            "text": "https://api.chainnews.com/api/schema/", 
+            "text": "https://api.chainnews.com/api/docs/", 
             "title": "API \u6587\u6863"
         }, 
         {
             "location": "/tips/python/virtualenv/", 
-            "text": "\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\n\n\n\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
+            "text": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
             "title": "\u865a\u62df\u73af\u5883"
-        }, 
-        {
-            "location": "/tips/python/virtualenv/#_1", 
-            "text": "", 
-            "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
         }, 
         {
             "location": "/tips/python/virtualenv/#python", 
@@ -51,29 +46,49 @@
             "title": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_2", 
-            "text": "source /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon", 
+            "location": "/tips/python/virtualenv/#_1", 
+            "text": "source /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon", 
             "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_3", 
+            "location": "/tips/python/virtualenv/#_2", 
             "text": "virtualenvwrapper \u53c2\u8003  \u5b98\u65b9\u6587\u6863", 
             "title": "\u76f8\u5173\u6587\u6863"
         }, 
         {
             "location": "/quark/", 
-            "text": "", 
+            "text": "\u57fa\u672c\u73af\u5883\n\uf0c1\n\n\n\n\n\n\n\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS\n\n\n\u6570\u636e\u5e93: MySQL 5.6\n\n\n\u7f13\u5b58\u7cfb\u7edf: redis\n\n\n\u5f00\u53d1\u8bed\u8a00: Python 3.6.x\n\n\n\u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91\n\n\n\n\nWeb Framework\n\uf0c1\n\n\n\n\n\n\nDjango-1.11.x\n\n\ndjango-rest-framework 3.9.x\n\n\n\n\n\u524d\u7aef\n\uf0c1\n\n\n\n\n\n\nwebpack-4.35.3\n\n\nspectre\n\n\n\n\ncd static/\nnpm install\nnpm run dev\n\n\n\n\nGeoIP DB\n\uf0c1\n\n\ncd project_dir/\npython manage.py update_mmdb\n\n\n\n\nAPI \u6587\u6863\n\uf0c1\n\n\n\n\nhttps://api.block123.com/api/docs/", 
             "title": "\u5f00\u53d1\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/", 
-            "text": "\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\n\n\n\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
-            "title": "\u865a\u62df\u73af\u5883"
+            "location": "/quark/#_1", 
+            "text": "\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS  \u6570\u636e\u5e93: MySQL 5.6  \u7f13\u5b58\u7cfb\u7edf: redis  \u5f00\u53d1\u8bed\u8a00: Python 3.6.x  \u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91", 
+            "title": "\u57fa\u672c\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_1", 
-            "text": "", 
-            "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
+            "location": "/quark/#web-framework", 
+            "text": "Django-1.11.x  django-rest-framework 3.9.x", 
+            "title": "Web Framework"
+        }, 
+        {
+            "location": "/quark/#_2", 
+            "text": "webpack-4.35.3  spectre   cd static/\nnpm install\nnpm run dev", 
+            "title": "\u524d\u7aef"
+        }, 
+        {
+            "location": "/quark/#geoip-db", 
+            "text": "cd project_dir/\npython manage.py update_mmdb", 
+            "title": "GeoIP DB"
+        }, 
+        {
+            "location": "/quark/#api", 
+            "text": "https://api.block123.com/api/docs/", 
+            "title": "API \u6587\u6863"
+        }, 
+        {
+            "location": "/tips/python/virtualenv/", 
+            "text": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
+            "title": "\u865a\u62df\u73af\u5883"
         }, 
         {
             "location": "/tips/python/virtualenv/#python", 
@@ -81,14 +96,19 @@
             "title": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_2", 
-            "text": "source /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon", 
+            "location": "/tips/python/virtualenv/#_1", 
+            "text": "source /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon", 
             "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_3", 
+            "location": "/tips/python/virtualenv/#_2", 
             "text": "virtualenvwrapper \u53c2\u8003  \u5b98\u65b9\u6587\u6863", 
             "title": "\u76f8\u5173\u6587\u6863"
+        }, 
+        {
+            "location": "/tips/docker/install/", 
+            "text": "", 
+            "title": "\u5b89\u88c5"
         }, 
         {
             "location": "/tips/python/install/", 
@@ -107,13 +127,8 @@
         }, 
         {
             "location": "/tips/python/virtualenv/", 
-            "text": "\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\n\n\n\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
+            "text": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883\n\uf0c1\n\n\npip install virtualenv virtualenvwrapper\n\n\n\n\n\u521b\u5efa\u865a\u62df\u73af\u5883\n\uf0c1\n\n\nsource /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon\n\n\n\n\n\u76f8\u5173\u6587\u6863\n\uf0c1\n\n\n\n\nvirtualenvwrapper \u53c2\u8003\n\n\n\u5b98\u65b9\u6587\u6863", 
             "title": "\u865a\u62df\u73af\u5883"
-        }, 
-        {
-            "location": "/tips/python/virtualenv/#_1", 
-            "text": "", 
-            "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
         }, 
         {
             "location": "/tips/python/virtualenv/#python", 
@@ -121,24 +136,19 @@
             "title": "\u5b89\u88c5 python \u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_2", 
-            "text": "source /usr/local/bin/virtualenvwrapper.sh\nmkvirtualenv baryon", 
+            "location": "/tips/python/virtualenv/#_1", 
+            "text": "source /usr/local/bin/virtualenvwrapper.sh\ncd /path/to/baryon/\nmkvirtualenv -p `which python3.6` -r requirements.txt baryon", 
             "title": "\u521b\u5efa\u865a\u62df\u73af\u5883"
         }, 
         {
-            "location": "/tips/python/virtualenv/#_3", 
+            "location": "/tips/python/virtualenv/#_2", 
             "text": "virtualenvwrapper \u53c2\u8003  \u5b98\u65b9\u6587\u6863", 
             "title": "\u76f8\u5173\u6587\u6863"
         }, 
         {
             "location": "/tips/markdown/render_math/", 
-            "text": "\u5982\u4f55\u6e32\u67d3\u6570\u636e\u516c\u5f0f\n\uf0c1\n\n\n\n\n\u5b89\u88c5 \nPyMdown Extensions\n\uf0c1\n\n\npip install pymdown-extensions\n\n\n\n\n\u4ee5 mkdocs \u4e3a\u4f8b\uff1a\n\uf0c1\n\n\n\u5728 mkdocs.yml \u4e2d\u52a0\u5165\u4ee5\u4e0b\u914d\u7f6e\uff1a\n\n\nmarkdown_extensions:\n    - pymdownx.arithmatex\n\nextra_javascript: [\nhttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML\n,\n  \njs/mathjaxhelper.js\n,\n]\n\n\n\n\n\u6e32\u67d3\u6570\u5b66\u516c\u5f0f\n\uf0c1\n\n\n$p(x|y) = \\frac{p(y|x)p(x)}{p(y)}$, \\(p(x|y) = \\frac{p(y|x)p(x)}{p(y)}\\).\n\n\n\n\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\n, \np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\n.", 
+            "text": "\u5b89\u88c5 \nPyMdown Extensions\n\uf0c1\n\n\npip install pymdown-extensions\n\n\n\n\n\u4ee5 mkdocs \u4e3a\u4f8b\uff1a\n\uf0c1\n\n\n\u5728 mkdocs.yml \u4e2d\u52a0\u5165\u4ee5\u4e0b\u914d\u7f6e\uff1a\n\n\nmarkdown_extensions:\n    - pymdownx.arithmatex\n\nextra_javascript: [\nhttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML\n,\n  \njs/mathjaxhelper.js\n,\n]\n\n\n\n\n\u6e32\u67d3\u6570\u5b66\u516c\u5f0f\n\uf0c1\n\n\n$p(x|y) = \\frac{p(y|x)p(x)}{p(y)}$, \\(p(x|y) = \\frac{p(y|x)p(x)}{p(y)}\\).\n\n\n\n\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\n, \np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\np(x|y) = \\frac{p(y|x)p(x)}{p(y)}\n.", 
             "title": "\u6e32\u67d3\u6570\u5b66\u516c\u5f0f"
-        }, 
-        {
-            "location": "/tips/markdown/render_math/#_1", 
-            "text": "", 
-            "title": "\u5982\u4f55\u6e32\u67d3\u6570\u636e\u516c\u5f0f"
         }, 
         {
             "location": "/tips/markdown/render_math/#pymdown-extensions", 
@@ -151,7 +161,7 @@
             "title": "\u4ee5 mkdocs \u4e3a\u4f8b\uff1a"
         }, 
         {
-            "location": "/tips/markdown/render_math/#_2", 
+            "location": "/tips/markdown/render_math/#_1", 
             "text": "$p(x|y) = \\frac{p(y|x)p(x)}{p(y)}$, \\(p(x|y) = \\frac{p(y|x)p(x)}{p(y)}\\).  p(x|y) = \\frac{p(y|x)p(x)}{p(y)} p(x|y) = \\frac{p(y|x)p(x)}{p(y)} ,  p(x|y) = \\frac{p(y|x)p(x)}{p(y)} p(x|y) = \\frac{p(y|x)p(x)}{p(y)} .", 
             "title": "\u6e32\u67d3\u6570\u5b66\u516c\u5f0f"
         }, 

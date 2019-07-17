@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://www.chainnews.com/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,13 +13,13 @@
         
     <url>
      <loc>https://www.chainnews.com/baryon/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.chainnews.com/tips/python/virtualenv/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -29,19 +29,25 @@
         
     <url>
      <loc>https://www.chainnews.com/quark/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.chainnews.com/tips/python/virtualenv/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+        
+    <url>
+     <loc>https://www.chainnews.com</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
         
     <url>
      <loc>https://www.chainnews.com</loc>
@@ -61,7 +67,7 @@
         
     <url>
      <loc>https://www.chainnews.com/about/chainnews/</loc>
-     <lastmod>2018-03-07</lastmod>
+     <lastmod>2019-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
