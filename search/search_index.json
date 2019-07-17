@@ -57,12 +57,12 @@
         }, 
         {
             "location": "/quark/", 
-            "text": "\u57fa\u672c\u73af\u5883\n\uf0c1\n\n\n\n\n\n\n\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS\n\n\n\u6570\u636e\u5e93: MySQL 5.6\n\n\n\u7f13\u5b58\u7cfb\u7edf: redis\n\n\n\u5f00\u53d1\u8bed\u8a00: Python 3.6.x\n\n\n\u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91\n\n\n\n\nWeb Framework\n\uf0c1\n\n\n\n\n\n\nDjango-1.11.x\n\n\ndjango-rest-framework 3.9.x\n\n\n\n\n\u524d\u7aef\n\uf0c1\n\n\n\n\n\n\nwebpack-4.35.3\n\n\nspectre\n\n\n\n\ncd static/\nnpm install\nnpm run dev\n\n\n\n\nGeoIP DB\n\uf0c1\n\n\ncd project_dir/\npython manage.py update_mmdb\n\n\n\n\nAPI \u6587\u6863\n\uf0c1\n\n\n\n\nhttps://api.block123.com/api/docs/", 
+            "text": "\u57fa\u672c\u73af\u5883\n\uf0c1\n\n\n\n\n\n\n\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS\n\n\n\u6570\u636e\u5e93: MySQL 5.6\n\n\n\u7f13\u5b58\u7cfb\u7edf: redis\n\n\n\u5f00\u53d1\u8bed\u8a00: Python 3.6.x\n\n\n\u641c\u7d22\u5f15\u64ce: elasticsearch 2.4.6\n\n\n\u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91\n\n\n\n\nWeb Framework\n\uf0c1\n\n\n\n\n\n\nDjango-1.11.x\n\n\ndjango-rest-framework 3.9.x\n\n\n\n\n\u524d\u7aef\n\uf0c1\n\n\n\n\n\n\nwebpack-4.35.3\n\n\nspectre\n\n\n\n\ncd static/\nnpm install\nnpm run dev\n\n\n\n\nGeoIP DB\n\uf0c1\n\n\ncd project_dir/\npython manage.py update_mmdb\n\n\n\n\nAPI \u6587\u6863\n\uf0c1\n\n\n\n\nhttps://api.block123.com/api/docs/", 
             "title": "\u5f00\u53d1\u73af\u5883"
         }, 
         {
             "location": "/quark/#_1", 
-            "text": "\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS  \u6570\u636e\u5e93: MySQL 5.6  \u7f13\u5b58\u7cfb\u7edf: redis  \u5f00\u53d1\u8bed\u8a00: Python 3.6.x  \u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91", 
+            "text": "\u7cfb\u7edf\u73af\u5883: Ubuntu 16.04 LTS  \u6570\u636e\u5e93: MySQL 5.6  \u7f13\u5b58\u7cfb\u7edf: redis  \u5f00\u53d1\u8bed\u8a00: Python 3.6.x  \u641c\u7d22\u5f15\u64ce: elasticsearch 2.4.6  \u56fe\u7247\u7cfb\u7edf\u4f7f\u7528: \u4e03\u725b\u4e91", 
             "title": "\u57fa\u672c\u73af\u5883"
         }, 
         {
